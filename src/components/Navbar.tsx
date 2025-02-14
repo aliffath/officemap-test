@@ -1,6 +1,4 @@
 import { useState } from "react";
-import menuIcon from "../assets/icon/List.svg";
-import closeIcon from "../assets/icon/close.svg";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState<boolean>(false);
@@ -10,7 +8,7 @@ const Navbar = () => {
       <nav>
         <div className="container mx-auto flex justify-between lg:justify-end gap-10 items-center p-4">
           <button className="lg:hidden" onClick={() => setIsOpen(!isOpen)}>
-            <img src={menuIcon} alt="Menu" className="w-8 h-8 transition-transform duration-300 hover:scale-110" />
+            <img src="/icons/List.svg" alt="Menu" className="w-8 h-8 transition-transform duration-300 hover:scale-110" />
           </button>
 
           <ul className="hidden lg:flex gap-10 text-gray-700">
@@ -30,7 +28,7 @@ const Navbar = () => {
           onClick={() => setIsOpen(false)}>
           <div className={`bg-white w-[250px] h-full p-6 shadow-md transform transition-all duration-500 ease-in-out will-change-transform ${isOpen ? "translate-x-0" : "-translate-x-full"}`}>
             <button className="mb-6 hover:rotate-90 transition-transform duration-300" onClick={() => setIsOpen(false)}>
-              <img src={closeIcon} alt="Close" className="w-[15px] h-[21px]" />
+              <img src="/icons/Close.svg" alt="Close" className="w-[15px] h-[21px]" />
             </button>
 
             <ul className="space-y-10">
