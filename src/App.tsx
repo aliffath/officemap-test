@@ -2,7 +2,7 @@ import Navbar from "./components/Navbar";
 function App() {
   return (
     <>
-      <div className="bg-[url('/src/assets/bg.png')] min-h-screen bg-cover bg-center bg-no-repeat">
+      <div className="bg-[url('/bg.png')] min-h-screen bg-cover bg-center bg-no-repeat">
         <Navbar />
 
         <section className="container mx-auto px-4 w-full flex h-screen">
