@@ -4,7 +4,6 @@ function App() {
     <>
       <div className="bg-[url('/bg.png')] min-h-screen bg-cover bg-center bg-no-repeat">
         <Navbar />
-
         <section className="container mx-auto px-4 w-full flex h-screen">
           <div className="flex flex-col justify-center h-full  max-w-[665px]  w-full">
             <div className="text-center lg:text-start">
