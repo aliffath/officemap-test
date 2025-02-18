@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <>
       <nav>
-        <div className="container mx-auto flex justify-between lg:justify-end gap-10 items-center p-4">
+        <div className="container py-4 flex justify-between lg:justify-end gap-10 items-center">
           <button className="lg:hidden" onClick={() => setIsOpen(!isOpen)}>
             <img src="/icons/List.svg" alt="Menu" className="w-8 h-8 transition-transform duration-300 hover:scale-110" />
           </button>
