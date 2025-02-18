@@ -54,11 +54,11 @@ function App() {
               <p className="font-normal text-lg leading-[26px] ">Ante vulputate ut at accumsan et. Feugiat at tempus, est senectus amet, elementum.</p>
             </div>
           </div>
-          <div className="flex flex-col justify-center items-center md:col-span-2">
+          <div className="flex flex-col justify-center items-center md:col-span-2 lg:col-auto">
             <img src="/icons/club.svg" alt="" className="w-[79px] h-[77px]" />
             <div className="text-slate-800 text-center">
               <h2 className="font-bold text-2xl  leading-[32.68px] ">Clubs and Groups</h2>
-              <p className="font-normal text-lg leading-[26px] max-w-[316px]">Ante vulputate ut at accumsan et. Feugiat at tempus, est senectus amet, elementum.</p>
+              <p className="font-normal text-lg leading-[26px] max-w-[316px] lg:max-w-none">Ante vulputate ut at accumsan et. Feugiat at tempus, est senectus amet, elementum.</p>
             </div>
           </div>
         </div>
